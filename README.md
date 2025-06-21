@@ -1,24 +1,27 @@
 # 📬 Gmail AI Summarizer
 
-This project reads your latest Gmail emails, extracts the subject, sender, and body, and uses OpenAI's GPT model to generate a short summary of each message.
+This is a Python automation project that connects to your Gmail inbox, reads the latest 10 emails, and uses OpenAI GPT to generate short summaries for each message. It's designed to save time by giving quick insights into your inbox.
 
-## 💡 Why This Project?
-This is a real-world Python automation project that:
-- Connects to Gmail using the Gmail API
-- Extracts and cleans HTML/text email bodies
-- Uses GPT (via OpenAI API) to generate smart summaries
-- Helps users quickly scan their inbox
+---
 
-## 🧰 Tech Stack
-- 🐍 Python
-- ✉️ Gmail API
-- 🧠 OpenAI GPT-3.5
-- 🧪 BeautifulSoup (HTML parsing)
-- 🔐 Dotenv for environment variables
+## ✨ Features
 
-## 🛠 Setup
+- ✅ Connects securely to your Gmail account using OAuth
+- ✅ Reads the latest 10 unread or recent emails
+- ✅ Extracts sender, subject, and full email body
+- ✅ Uses GPT (via OpenAI API) to summarize each email in 1–2 sentences
+- ✅ Displays all info cleanly in the terminal
 
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/sima-me/gmail-ai-summarizer.git
-   cd gmail-ai-summarizer
+---
+
+## 🛠 Technologies Used
+
+- Python 3
+- Gmail API (via Google API Client)
+- OpenAI API (GPT-3.5)
+- BeautifulSoup (for HTML parsing)
+
+---
+
+## 📁 File Structure
+
